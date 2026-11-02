@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Sialkot Sports Store</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Sialkot Sports Store</h1>
+  <h3>Cart: <span id="cart-count">0</span> items</h3>
+
+  <div class="product">
+    <h3>Football</h3>
+    <p>Price: 1500 PKR</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <div class="product">
+    <h3>Cricket Bat</h3>
+    <p>Price: 3000 PKR</p>
+    <button onclick="addToCart()">Add to Cart</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
